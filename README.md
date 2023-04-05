@@ -10,6 +10,7 @@ The dataset used for this analysis was downloaded from kaggle website. The datas
 The analysis was conducted using SQL and Power BI
 
 ## Dashboard and Analysis
+I designed a dashboard to understand Tesla sales trend. This dashboard is effective at displaying the sales trend at Tesla, allowing the stakeholders to understand the data and make informed decisions
 ![Tesla Sales-1](https://user-images.githubusercontent.com/115374063/230226629-c31df58c-6d27-42af-b00b-3daddb9c5493.png)
 
 ## Insights
