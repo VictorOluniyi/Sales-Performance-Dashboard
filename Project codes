@@ -1,0 +1,72 @@
+CREATE TABLE sales (
+	id SERIAL NOT NULL PRIMARY KEY,
+	model VARCHAR(20) NOT NULL,
+	period VARCHAR(20) NOT NULL,
+	country VARCHAR (50) NOT NULL,
+	purchase_type VARCHAR(50) NOT NULL,
+	version VARCHAR(30) NOT NULL,
+	price NUMERIC NOT NULL,
+	gross_profit NUMERIC NOT NULL
+)
+
+SELECT * 
+FROM sales
+
+-- Total Number of Products sold
+SELECT COUNT(model)
+FROM sales
+
+-- Number of product sold per model
+SELECT model, COUNT(model) AS Total_sold_product
+FROM sales
+GROUP BY model
+ORDER BY Total_sold_product DESC
+
+-- The country with the highest product sold
+SELECT country, COUNT(*) AS total_product_sold
+FROM sales 
+GROUP BY country
+ORDER BY total_product_sold DESC
+
+-- Which purchase type are people using the most
+SELECT purchase_type, COUNT(*) AS total_product_sold
+FROM sales 
+GROUP BY purchase_type
+ORDER BY total_product_sold DESC
+
+-- which version are people buying the most
+SELECT version, COUNT(*) AS total_product_sold
+FROM sales 
+GROUP BY version
+ORDER BY total_product_sold DESC
+
+-- Total Gross Profit from 2016/01 - 2016/06
+SELECT CONCAT('$', SUM(gross_profit)) AS Total_profit
+FROM sales
+
+-- Most expensive version
+SELECT DISTINCT version, CONCAT('$', price) AS price
+FROM sales
+ORDER BY price DESC
+
+-- Which purchase are 
+SELECT purchase_type, CONCAT('$', SUM(price)) AS price
+FROM sales
+GROUP BY purchase_type
+ORDER BY price DESC
+
+-- which car version is generating the highest gross profit
+SELECT version, SUM(gross_profit) AS total_gross_profit
+FROM sales
+GROUP BY version
+ORDER BY total_gross_profit DESC
+
+-- which model is generating the highest gross profit
+SELECT model, SUM(gross_profit) AS "total_gross_profit($)"
+FROM sales
+GROUP BY model
+ORDER BY "total_gross_profit($)" DESC
+
+-- Average of gross profit
+SELECT ROUND(AVG(gross_profit))
+FROM sales
