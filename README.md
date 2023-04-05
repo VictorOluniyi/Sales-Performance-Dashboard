@@ -9,7 +9,7 @@ The dataset used for this analysis was downloaded from kaggle website. The datas
 ## Tech Stack
 The analysis was conducted using SQL and Power BI
 
-## Analysis
+## Dashboard and Analysis
 ![Tesla Sales-1](https://user-images.githubusercontent.com/115374063/230226629-c31df58c-6d27-42af-b00b-3daddb9c5493.png)
 
 ## Insights
