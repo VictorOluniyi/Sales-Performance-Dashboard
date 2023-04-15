@@ -9,9 +9,13 @@ The dataset used for this analysis was downloaded from kaggle website. The datas
 ## Tech Stack
 The analysis was conducted using SQL and Power BI
 
+## CREATING DATABASE AND EDA 
+![Tesla 1](https://user-images.githubusercontent.com/115374063/232208405-ad167249-75e3-40a7-b442-e8f42dd754bb.png)
+![Tesla 2](https://user-images.githubusercontent.com/115374063/232208412-d2c17739-a4d7-4b54-afc0-cb136b6ebccc.png)
+
 ## Dashboard and Analysis
 I designed a dashboard to understand Tesla sales trend. This dashboard is effective at displaying the sales trend at Tesla, allowing the stakeholders to understand the data and make informed decisions. The dashboard could increase revenue by at least 7% in the next quarter.
-![Tesla Sales-1](https://user-images.githubusercontent.com/115374063/230226629-c31df58c-6d27-42af-b00b-3daddb9c5493.png)
+![Tesla Sales 1-1](https://user-images.githubusercontent.com/115374063/232208450-a5468ea7-9537-44a1-b53c-209ab9c87940.png)
 
 ## Insights
 1. Out of 924 car orders, the 75 RWD version had the highest order with 307 orders, which was a whopping 468.52% higher than the least popular version, the 90D AWD, which only had 54 orders.
