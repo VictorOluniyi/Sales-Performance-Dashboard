@@ -9,7 +9,7 @@ The dataset used for this analysis was downloaded from kaggle website. The datas
 ## Tech Stack
 The analysis was conducted using SQL and Power BI
 
-## CREATING DATABASE AND EDA 
+#### CREATING DATABASE AND EDA 
 ![Tesla 1](https://user-images.githubusercontent.com/115374063/232208405-ad167249-75e3-40a7-b442-e8f42dd754bb.png)
 ![Tesla 2](https://user-images.githubusercontent.com/115374063/232208412-d2c17739-a4d7-4b54-afc0-cb136b6ebccc.png)
 
