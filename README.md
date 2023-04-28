@@ -21,7 +21,7 @@ I designed a dashboard to understand Tesla sales trend. This dashboard is effect
 1. Out of 924 car orders, the 75 RWD version had the highest order with 307 orders, which was a whopping 468.52% higher than the least popular version, the 90D AWD, which only had 54 orders.
 2. The Model S is more popular and profitable than the Model X, with $11M in profit
 3. The US market generated the highest revenue, with a total of $58 million, making up 83.70% of the overall revenue.
-4. Cash purchases account for most of the sales transactions, which may indicate that the Model S is a luxury car that customers typically buy in cash/money.
+4. Cash purchases account for most of the sales transactions, which may indicate that the Model S is a luxury car that customers typically buy in cash.
 
 ## Recommendations
 ![Tesla Sales-4](https://user-images.githubusercontent.com/115374063/230226688-b884fa93-ce45-4535-841a-94db491d1e4c.png)
