@@ -1,4 +1,4 @@
-# Sales-Performance-Dashboard-PowerBI
+# Sales-Performance-Dashboard-Tableau
 
 ## About the project
 The goal of this sales data analytics project is to identify patterns and trends in the car company's sales data in order to improve sales performance. By analyzing sales data from different regions, products, and time periods, we can determine which products are selling well, which regions are performing the best, and which time periods are most profitable. This information can be used to optimize sales strategies and drive revenue growth.
@@ -7,7 +7,7 @@ The goal of this sales data analytics project is to identify patterns and trends
 The dataset used for this analysis was downloaded from kaggle website. The dataset contains information on cars sold by the company, including the car model, version, country, customer purchase type, car price sales, and gross profit 
 
 ## Tech Stack
-The analysis was conducted using SQL and Power BI
+The analysis was conducted using SQL and Tableau
 
 #### CREATING DATABASE AND EDA 
 ![Tesla 1](https://user-images.githubusercontent.com/115374063/232208405-ad167249-75e3-40a7-b442-e8f42dd754bb.png)
