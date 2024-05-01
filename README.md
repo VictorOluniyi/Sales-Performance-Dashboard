@@ -1,4 +1,4 @@
-# Sales-Performance-Dashboard-Tableau
+# Sales-Performance-Dashboard-Power BI
 
 ## About the project
 The goal of this sales data analytics project is to identify patterns and trends in the car company's sales data in order to improve sales performance. By analyzing sales data from different regions, products, and time periods, we can determine which products are selling well, which regions are performing the best, and which time periods are most profitable. This information can be used to optimize sales strategies and drive revenue growth.
